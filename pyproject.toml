@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "project"
+version = "0.1.0"
+description = "Assignment 3"
+authors = ["Ian Liu <ianliutw@uw.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.92.0"
+uvicorn = {extras = ["standard"], version = "^0.20.0"}
+requests = "^2.28.2"
+python-dotenv = "^1.0.0"
+pysftp = "^0.2.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+autopep8 = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
