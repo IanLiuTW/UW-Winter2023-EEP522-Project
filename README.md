@@ -1,4 +1,6 @@
-# EEP 522 Final Project
+# EE P 522 A Wi 23: Embedded And Real Time Systems
+
+Final Project
 
 ## Objective
 
